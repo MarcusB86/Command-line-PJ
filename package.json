@@ -1,0 +1,16 @@
+{
+  "name": "command-line-pj",
+  "version": "1.0.0",
+  "description": "An application where employees can keep track of the inventory of a store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marcus Browne",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^3.3.7"
+  }
+}

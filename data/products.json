@@ -1,0 +1,22 @@
+[ 
+    { 
+ "name": "Laptop",
+ "priceInCents": 99900,
+ "inStock": true,
+ "brand": "Apple"
+},
+
+{ 
+ "name": "Headphones",
+  "priceInCents": 4999,
+  "inStock": false,
+  "brand": "Sony"
+},
+
+{ 
+ "name": "Smartwatch",
+  "priceInCents": 14900,
+  "inStock": true,
+  "brand": "Samsung"
+}
+]
