@@ -24,13 +24,6 @@ function show(products, productID) {
     const product = products.find((product) => product.id === productID);
     return product.id + " " + product.name + " " + product.priceInCents + " PriceInCents"
 }
-//     if (product) {
-//         return `${product.id} ${product.name} - ${product.brand}, $${(product.priceInCents / 100).toFixed(2)} (${product.inStock ? 'In Stock' : 'Out of Stock'})`;
-//     } else {
-//         inform(`Product with ID ${productID} not found.`);
-//         return null;
-//     }
-// }
 
 function destroy(products, productID) {
   const index = products.findIndex((product) => product.id === productID);
