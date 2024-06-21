@@ -4,7 +4,7 @@
   "description": "An application where employees can keep track of the inventory of a store",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js index",
     "create": "node index.js create",
     "destroy": "node index.js destroy",
     "show": "node index.js show",

@@ -1,1 +1,1 @@
-[{"id":1,"name":"Laptop","priceInCents":99900,"inStock":true,"brand":"Apple"},{"id":2,"name":"Headphones","priceInCents":4999,"inStock":false,"brand":"Sony"},{"id":3,"name":"Smartwatch","priceInCents":14900,"inStock":true,"brand":"Samsung"},{"id":"f8nz","name":"Tablet,"}]
+[{"id":"1wjd","name":"Laptop","price":1000,"inStock":"true"},{"id":"2ftr","name":"Headphones","price":200,"inStock":false},{"id":"rht4","name":"Smartwatch","price":100,"inStock":true},{"id":"2oS9","name":"Macbook"}]

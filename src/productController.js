@@ -1,12 +1,12 @@
 const { nanoid } = require("nanoid");
 const inform = console.log;
 
-function create(products, productName) {
+function create(products, productName, price, inStock) {
     const newProduct = {
         id: nanoid(4),
         name: productName,
-        priceInCents: 0, 
-        brand: "" 
+        price: price, 
+        inStock: inStock
     };
     
     products.push(newProduct);
@@ -17,12 +17,21 @@ function create(products, productName) {
 }
 
 function index(products) {
-    return products.map(product => `${product.id} ${product.name}`).join("\n");
+    return products.map(product => `${product.id} ${product.name} ${product.price} `).join("\n");
 }
 
 function show(products, productID) {
+    if (!Array.isArray(products)) {
+        return "Invalid products array";
+    }
+
     const product = products.find((product) => product.id === productID);
-    return product.id + " " + product.name + " " + product.priceInCents + " PriceInCents"
+
+    if (!product) {
+        return `Product with ID ${productID} not found`;
+    }
+
+    return `${product.id} ${product.name} ${product.price} price`;
 }
 
 function destroy(products, productID) {
